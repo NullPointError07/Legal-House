@@ -1,0 +1,46 @@
+.custom-color {
+    background: #B68C5A;
+}
+
+.custom-color:hover,
+.custom-color:focus,
+.custom-color:active {
+    background: #B68C5A;
+}
+
+.banner-bg {
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    font-family: 'EB Garamond', serif;
+}
+
+.custom-sm-img {
+    height: 70px;
+    width: 70px;
+}
+
+
+
+/* Couldnt do this part with bootstrap */
+@media (max-width: 576px) {
+    .carousel-caption {
+        position: absolute;
+        padding: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+
+    .position-absolute p {
+        font-size: 5px;
+    }
+}
+
+.list-group {
+    list-style: none;
+}
